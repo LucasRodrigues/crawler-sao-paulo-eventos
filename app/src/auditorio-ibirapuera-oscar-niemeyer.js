@@ -1,5 +1,5 @@
 const Crawler = require('crawler');
-const util = require('./util.js')
+const util = require('../util.js')
 
 const leituraDaPaginaDeEvento = (link) => {
   return new Promise((resolve, reject) => {

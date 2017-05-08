@@ -1,6 +1,6 @@
 version: '2'
 services:
-  graphql:
+  crawler:
     command: npm start
     build:
       context: .

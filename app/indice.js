@@ -1,6 +1,5 @@
-const centroCulturalSaoPaulo = require('./centro-cultural-sao-paulo.js')
-const auditorioIbirapueraOscarNiemeyer = require('./auditorio-ibirapuera-oscar-niemeyer.js')
-
+const centroCulturalSaoPaulo = require('./src/centro-cultural-sao-paulo.js')
+const auditorioIbirapueraOscarNiemeyer = require('./src/auditorio-ibirapuera-oscar-niemeyer.js')
 
 const rodar = async () => {
   const lugares = [

@@ -6,6 +6,7 @@ ENV PORT 8000
 
 WORKDIR $APP_HOME
 
+COPY app ./
 COPY package.json package.json
 RUN npm install --silent
 
